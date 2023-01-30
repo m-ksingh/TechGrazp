@@ -52,7 +52,7 @@ function Footers() {
         <hr/>
         <div class="text-center p-4" style={{ backgroundcolor: "#ECECEC" }}>
           © 2023 Copyright:
-          <a class="text-reset fw-bold" href="#!">Tech TechGrazp</a>
+          <a class="text-reset fw-bold" href="#!">TechGrazp</a>
         </div>
       </footer>
     </div>
