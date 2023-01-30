@@ -1,0 +1,262 @@
+.TrainingBanner {
+    background-image: url("../../Assets/Image/trainingbanner.jpg");
+    height: 650px;
+    
+    
+  
+  }
+  .btntraining{
+    background-color: #1A576A;
+    border: 1px #1A576A;
+    color: white;
+    padding: 2px auto;
+  }
+  .btntraining:hover{
+    color: aliceblue;
+  }
+  .counter
+  {
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.32);
+      text-align: center;
+  }
+  .employees,.customer,.design,.order
+  {
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+  .counter-count
+  {
+      font-size: 18px;
+      background-color: #00b3e7;
+      border-radius: 50%;
+      border: 1px solid #00b3e7;
+      /* border-right: 2px solid green;
+      border-bottom: 2px solid red;
+      border-left: 2px solid pink; */
+      position: relative;
+      color: #ffffff;
+      text-align: center;
+      line-height: 92px;
+      width: 100px;
+
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      display: inline-block;
+  }
+  
+  .employee-p,.customer-p,.order-p,.design-p
+  {
+      font-size: 15px;
+      color: #fff;
+      line-height: 20px;
+  }
+
+  .request{
+
+    text-transform: none;
+    width: 200px;
+    height: 40px;
+    /* UI Properties */
+    background: #00BEFF 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    opacity: 1;
+    color: white;
+    font-family: "Poppins" ;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-left: 80px;
+    border: none;
+    margin-top: 70px;
+       }
+       .cards-button{
+       
+        width: 100%;
+        height: 60px;
+        /* UI Properties */
+        background: #00BEFF 0% 0% no-repeat padding-box;
+        border-radius: 9px;
+    
+        color: white;
+      text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+       padding-top: 10px;
+        border: none;
+        text-align: center;
+       }
+       .bb{
+        background-image: url('../../Assets/Image/msss_cleanup.JPG');
+       }
+
+       .bc{
+        background-image: url('../../Assets/Image/msss_cleanup.JPG');
+        height: auto;
+        background-repeat: repeat;
+       }
+       .trainig-scroll{
+        height: 260px;
+        overflow-y: scroll;
+        
+       }
+       
+       .trainig-scroll::-webkit-scrollbar {
+        width: 6px;
+      }
+      
+      /* Track */
+      .trainig-scroll::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px #EFA47F; 
+        border-radius: 5px;
+      }
+       
+      /* Handle */
+      .trainig-scroll::-webkit-scrollbar-thumb {
+        background: #EFA47F; 
+        border-radius: 5px;
+      }
+      .card-text{
+        text-align: justify;
+        font-size: 15px;
+        font-weight: 500;
+      }
+      table{
+        margin-left: auto;  
+margin-right: auto;  
+border-collapse: collapse;
+      }
+
+      .hello{
+        background-image: url("../../Assets/Image/bg-sand-wave.png");
+        background-repeat: no-repeat;
+        min-height: 620px;
+        padding-top: 60px;
+
+        /* background-position: right 0 bottom 0; */
+        background-size: 100%;
+        
+      }
+      .Contain{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .testimonial-wrapper{
+        max-width: 640px;
+    padding-right: 20px;
+    margin-top: 30px;
+      }
+      .logos {
+        padding-top: 30px
+      }
+      .logos img {
+        max-width: 155px;
+        max-height: 100px;
+        padding: 5px;
+        font-weight: 900;
+      }
+      tr {
+        display: table-row;
+        vertical-align: inherit;
+        border-color: inherit;
+    }
+   
+  .logos table td {
+    border: dashed 1px #dbdbdb;
+    padding: 15px;
+    text-align: center
+  }
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  .Training {
+    text-align: justify;
+    font-family: 'Poppins';
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .WeareTraining {
+    font-family: 'Poppins';
+    letter-spacing: 0px;
+    color: #707070;
+  
+    font-size: 30px;
+  }
+  .htdmethod{
+display: none;
+  }
+  .htdmethodimg{
+    max-width: 100%;
+  
+  }
+@media screen and (max-width:600px) {
+
+  .Training {
+    text-align: justify;
+    font-family: 'Poppins';
+
+    color: #707070;
+
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .htdmethodimg{
+    display: none;
+  }
+  .htdmethod{
+    display: inline;
+      }
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	.hello{
+    background-image: none;
+background-color: #F5F9F4;
+  }
+	
+}
