@@ -10,7 +10,7 @@
   min-width: 100px;
 } */
 
-.carousel-caption {
+/* .carousel-caption {
   position: absolute;
   right: 12%;
   bottom: 1.25rem;
@@ -21,7 +21,7 @@
   text-align: center;
   
  
-}
+} */
 
 
 
@@ -562,7 +562,18 @@ input[type=submit]:focus {
     display: none;
   }
   .carousel-caption {
-    padding-bottom: 0px;
+    position: absolute;
+    right: 12%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    top: 5%;
+  }
+  .impl{
+    font-size: 30px;
   }
  
 }
@@ -654,4 +665,64 @@ height: 300px;
   100%{
     transform: scale(0.8);
   }
+}
+
+.visiblediv {
+  display: block;
+}
+
+.hiddendiv {
+  display: none;
+}
+
+
+
+
+
+nav > .nav.nav-tabs{
+
+  border: none;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+  border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:#007b5e;
+    border-radius:0;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+nav > div a.nav-item.nav-link.active:after
+ {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #458DA8 ;
+}
+.tab-content{
+  background: #fdfdfd;
+    line-height: 25px;
+    border: 1px solid #ddd;
+    border-top:5px solid #458DA8;
+    
+    padding:30px 25px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+  border: none;
+    background: #458DA8;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
 }

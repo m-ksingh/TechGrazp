@@ -5,6 +5,8 @@ import Footers from './Component/Footer/Footer';
 import Navbar from './Component/Navbar/Navbar';
 import Page404 from './Component/Page404/Page404';
 import Home from './Page/Home/Home';
+import David from './Page/OurTeam/David';
+import JohnF from './Page/OurTeam/JohnF';
 import OurTeam from './Page/OurTeam/OurTeam';
 import Tumula from './Page/OurTeam/Tumula';
 
@@ -21,13 +23,14 @@ function App() {
     <div >
       {!loading && (
     <Router>
-    <Navbar/>
+    {/* <Navbar/> */}
 
       <Routes> 
          <Route  path='/' element ={<Home/>}/>
          <Route  path='/ourTeam' element ={<OurTeam/>}/>
          <Route  path='/ourteam-tumula' element ={<Tumula/>}/>
-        
+         <Route  path='/ourteam-john' element ={<JohnF/>}/>
+         <Route  path='/ourteam-david' element ={<David/>}/>
         <Route path="/*" element ={<Page404/>}/>
       </Routes>
       <Footers/>

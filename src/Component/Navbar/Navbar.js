@@ -27,10 +27,10 @@ function Navbar(props) {
 $(function() {
 $(window).on("scroll", function() {
    if($(window).scrollTop() > 400) {
-       $("header").addClass("active");
+       $("header").addClass("newactive");
    } else {
        //remove the background property so it comes transparent again (defined in your css)
-      $("header ").removeClass("active ");
+      $("header ").removeClass("newactive ");
    }
 })
 });
@@ -83,7 +83,7 @@ $(window).on("scroll", function() {
             <li><Link to="#" onClick={() => scrollView('whyus')}><i class="fa fa-user px-1" aria-hidden="true"></i>About us</Link></li>
             <li><Link to="#" onClick={() => scrollView('features')}><i class="fa fa-wrench faa-wrench animated px-1" aria-hidden="true"></i>Our Services</Link></li>
             <li><Link to="#" onClick={() => scrollView('team')}><i class="fa fa-group px-1" aria-hidden="true"></i>Our Team</Link></li>
-            <li><Link to="#"><i class="fa fa-th px-1" aria-hidden="true"></i>Blog</Link></li>
+            <li><Link to="#" onClick={() => scrollView('contact')}><i ></i><div className=' px-3' style={{border:"1px solid red", background:"#dc3545", borderRadius:"10px"}}>Contact us </div></Link></li>
    
      
 
